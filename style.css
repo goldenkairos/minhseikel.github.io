@@ -266,5 +266,14 @@ p,h2{
 }
 
 
+@media only screen and (max-width:767px) and (min-width:300px){
+    .left, .left::after, .right, .right::after{
+        display:none
+    }
 
 
+
+
+
+    
+}
