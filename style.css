@@ -266,7 +266,7 @@ p,h2{
 }
 
 /* Phone and tablet screen */
-@media only screen and (max-width:767px) and (min-width:300px){
+@media only screen and (max-width:810px) and (min-width:300px){
     .left, .left::after, .right, .right::after, .designedby{
         display:none
     }
@@ -290,25 +290,26 @@ p,h2{
 .adj{
     position: bottom;
     bottom: 0;
-
 }
 
 .intro2{
     height: fit-content;
-    width: fit-content;
+    width: 60%;
     font-size: small;
+    
     
 }
 .container{
     margin-left:20px;
     padding-bottom: 20px;
     align-items: center;
+    margin-left:0;
 }
 
 }
 
 /* Laptop screen */
-@media only screen and (min-width: 600px)and (max-width: 1366px) {
+@media only screen and (min-width: 600px)and (max-width: 5000px) {
     .adj{
         display: none;
     }
