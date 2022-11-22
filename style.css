@@ -309,7 +309,7 @@ p,h2{
 }
 
 /* Laptop screen */
-@media only screen and (min-width: 600px)and (max-width: 5000px) {
+@media only screen and (min-width: 809px)and (max-width: 5000px) {
     .adj{
         display: none;
     }
