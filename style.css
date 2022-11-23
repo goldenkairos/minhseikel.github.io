@@ -296,8 +296,16 @@ p,h2{
     height: fit-content;
     width: 100%;
     font-size: small;
-    padding:0;    
+    padding:0;
+    /* font-weight: 80px;     */
     
+}
+
+.standard-card {
+    height: fit-content;
+    width: 100%;
+    font-size: small;
+
 }
 .container{
     margin-left:20px;
@@ -305,11 +313,15 @@ p,h2{
     align-items: center;
     margin-left:0;
 }
+ul, #copyright {
+    padding-inline-start: 0;
+    font-size: small;
+}
 
 }
 
 /* Laptop screen */
-@media only screen and (min-width: 809px)and (max-width: 5000px) {
+@media only screen and (min-width: 811px) {
     .adj{
         display: none;
     }
