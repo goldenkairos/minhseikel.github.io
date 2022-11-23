@@ -317,6 +317,22 @@ ul, #copyright {
     padding-inline-start: 0;
     font-size: small;
 }
+.intro-container {
+    display: block;
+    width:100%;
+    justify-content: center;
+    text-align: justify;
+    margin:10px;
+}
+
+.skills{
+    margin-left: 0;
+}
+
+
+
+
+
 
 }
 
