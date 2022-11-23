@@ -7,7 +7,7 @@ body{
     color:rgb(190, 241, 247);
     line-height: 1.8;
     font-weight: lighter;
-    letter-spacing: 1px;
+    /* letter-spacing: 1px; */
     font-size: 20px;    
 }
 h1{
@@ -124,6 +124,18 @@ p,h2{
 
 
 /* index.html */
+.index-image{
+    height: 310px;
+    width: 400px;
+    opacity: .7;
+    float: right;
+    margin-right: 150px;
+    border-radius: 30px;    
+
+
+    
+    
+}
 .button {
     background-color: transparent; 
     border: 1px solid rgb(0, 255, 198);
@@ -185,6 +197,7 @@ p,h2{
     color:rgb(56, 175, 188);
     margin-right:10px;
     font-size: medium;
+    
 }
 
 
@@ -266,11 +279,22 @@ p,h2{
 }
 
 /* Phone and tablet screen */
-@media only screen and (max-width:810px) and (min-width:300px){
+@media only screen and (max-width:1271px) and (min-width:300px){
     .left, .left::after, .right, .right::after, .designedby{
         display:none
     }
+    
+    .index-image{
+        display: none;
+    }
 
+    body,{
+        font-size: small;
+    }
+
+    .myname{
+        font-size: 40px;
+    }
 .socialmedia {
     list-style: none;
     display: inline-block;
@@ -304,7 +328,7 @@ p,h2{
 .standard-card {
     height: fit-content;
     width: 100%;
-    font-size: small;
+    font-size: 80%;
 
 }
 .container{
@@ -317,22 +341,19 @@ ul, #copyright {
     padding-inline-start: 0;
     font-size: small;
 }
+
 .intro-container {
     display: block;
     width:100%;
     justify-content: center;
     text-align: justify;
     margin:10px;
+    
 }
 
 .skills{
     margin-left: 0;
 }
-
-
-
-
-
 
 }
 
